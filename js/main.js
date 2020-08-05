@@ -1,9 +1,9 @@
 'use strict';
 
 {
-  const btn = document.getElementById('btn');
+  const result = document.getElementById('result');
 
-  btn.addEventListener('click', () => {
+  result.addEventListener('click', () => {
     const n = Math.random();
     if (n < 0.05) {
       result.textContent = '貴方は大吉を引きました。';
