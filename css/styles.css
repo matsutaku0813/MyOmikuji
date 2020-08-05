@@ -2,6 +2,11 @@ body {
   background: #efefef;
 }
 
+H1{
+  text-align: center;
+  font-family: 'HGP行書体';
+}
+
 #btn {
   width: 200px;
   height: 200px;
@@ -16,6 +21,17 @@ body {
   cursor: pointer;
   box-shadow: 0 10px 0 #d1483e;
   user-select: none;
+}
+
+.result-announce,#result{
+  text-align: center;
+  font-family: 'HGP行書体';
+  font-size: 40px;
+}
+
+#result{
+  text-decoration: underline overline;
+  text-decoration-color: red;
 }
 
 #btn:hover {

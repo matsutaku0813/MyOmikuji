@@ -6,11 +6,11 @@
   btn.addEventListener('click', () => {
     const n = Math.random();
     if (n < 0.05) {
-      btn.textContent = '大吉';
+      result.textContent = '貴方は大吉を引きました。';
     } else if (n < 0.2) {
-      btn.textContent = '中吉';
+      result.textContent = '貴方は中吉を引きました。';
     } else {
-      btn.textContent = '凶';
+      result.textContent = '貴方は凶を引きました。';
     }
   });
 }
