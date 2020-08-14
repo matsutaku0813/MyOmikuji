@@ -11,9 +11,17 @@
   <H1>おみくじ</H1>
   <div id="btn">?</div>
   <div class="result-announce">結果発表</div>
-  <div id="result">まだ引いてません</div>
+  <div id="result" v-text="click">まだ引いてません</div>
+
+  <script>
+    var omikuji = new Vue({
+      el:'omikuji',
+      data:{click:result.textContent}
+    })
+  </script>
   
   <script src="js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </body>
 
 </html>
